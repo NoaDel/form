@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="survey-form">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        <div>
+            <p>Full Name</p>
+            <input type="text" name="" id="full-name">
+        </div>
+        <div>
+            <p>Email Address</p>
+            <input type="email" name="" id="email">
+        </div>
+        <div>
+            <p>Age (optional)</p>
+            <input type="number" name="" id="email">
+        </div>
+        <div>
+            <p>Which option best describes your current place of residence</p>
+            <select name="" id="cities">
+                <option value="lehi">Lehi</option>
+                <option value="americanfork">American Fork</option>
+                <option value="eaglemountain">Eagle Mountain</option>
+                <option value="saratogasprings">Saratoga Springs</option>
+                <option value="lindon">Lindon</option>
+                <option value="pleasantgrove">Pleasant Grove</option>
+                <option value="orem">Orem</option>
+                <option value="provo">Provo</option>
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend Utah County to a friend as a place to live</p>
+            <input type="radio" value="definitely" id="opinion" name="recom">
+            <label for="definitely">Definitely</label>
+            <input type="radio" value="maybe" id="opinion" name="recom">
+            <label for="maybe">Maybe</label>
+            <input type="radio" value="notSure" id="opinion" name="recom">
+            <label for="notSure">Not Sure</label>
+        </div>
+        <div>
+            <p>Select your favorite feature of your city?</p>
+            <select name="" id="fav">
+                <option value="community">Community</option>
+                <option value="churches">Churches</option>
+                <option value="shoppingcenters">Shopping Centers</option>
+                <option value="schools">Schools</option>
+                <option value="parks">Parks</option>
+                <option value="movietheaters">Movie Theaters</option>
+            </select>
+        </div>
+        <div>
+            <p>What would you like to see improved?</p>
+            <input type="checkbox" value="cheapersinglefamilyhomes" id="improvement">
+            <label for="cheapersinglefamilyhomes">Cheaper single family homes</label>
+            <input type="checkbox" value="parkwithpavilionforneighborhoods" id="improvement">
+            <label for="parkwithpavilionforneighborhoods">Park with pavilion for neighborhoods</label>
+            <input type="checkbox" value="bettertrafficflow" id="improvement">
+            <label for="bettertrafficflow">Better traffic flow</label>
+            <input type="checkbox" value="shoppingmall" id="improvement">
+            <label for="shoppingmall">Shopping Mall</label>
+            <input type="checkbox" value="highdensityapartments" id="improvement">
+            <label for="highdensityapartments">High density apartments</label>
+        </div>
+        <div>
+            <p>Any comments or suggestions</p>
+                <textarea name="message" rows="4" cols="75"></textarea>
+        </div>
+        <div>
+            <input type="submit" id="sub">
+        </div>
+    </form>
+</body>
+</html>

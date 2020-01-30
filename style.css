@@ -1,0 +1,40 @@
+form {
+    margin: 50px;
+}
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+div {
+    border: 0;
+}
+#full-name{
+    padding: 10px;
+    width: 500px;
+}
+#email{
+    padding: 10px;
+    width: 500px;
+}
+#cities{
+    padding: 10px;
+    width: 500px;
+    height: 40px;
+    appearance: none;
+}
+#opinion{
+    padding: 10px;
+}
+#fav{
+    padding: 10px;
+    width: 500px;
+    height: 40px;
+    appearance: none;
+}
+#sub{
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+}
